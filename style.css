@@ -4,14 +4,15 @@ header{
     top: 0;
     right: 0;
     z-index: 1000;
-    display: flex;
+    display:inline;
     align-items: center;
     justify-content: space-between;
     background-color:antiquewhite;
     box-shadow: 0 8px 12px grey;
-    padding-left: 15px;
+    padding-left: 50px;
     transition: 0.5s;
     text-decoration: none;
+    color:  rgb(55, 42, 25);
   }
 
 img{
@@ -31,24 +32,26 @@ background-size:cover;
 width: 100vh;
 height:100vh;
 font-size: 80px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Arial, Helvetica, sans-serif;
+font-family: roboto;
 padding-left: 50px;
+color: rgb(55, 42, 25);
 }
 
  .navbar{
     font-size: 20px;
     font-weight: 500;
-    display: flex;
+    display: inline;
     text-decoration: none;
-    column-gap: 5pc;
-    padding: 0 100px 0 100px;
+    
+    
  }
  
 
  .nav{
-    display: flex;
+    display: inline;
     text-align:center;
     text-decoration: none;
+   
 
 }
 
@@ -57,6 +60,8 @@ padding-left: 50px;
     font-weight: 500;
     color: rgb(55, 42, 25);
     text-decoration: none;
+    padding: 30px;
+    
 }
 
 .navbar:hover{
@@ -109,5 +114,5 @@ footer{
 }
 .gof a{
     text-decoration: none;
-    color: #000;
+    color:  rgb(55, 42, 25);
 }
